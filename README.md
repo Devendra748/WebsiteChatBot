@@ -24,7 +24,7 @@ import os
 os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 ```
 
-Replace `"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"` with your actual OpenAI API key.
+Replace `"OPENAI_API_KEY"` with your actual OpenAI API key.
 
 2. Document Loading: LangChain provides a `UnstructuredURLLoader` class for loading documents from URLs. You can use it as follows:
 
